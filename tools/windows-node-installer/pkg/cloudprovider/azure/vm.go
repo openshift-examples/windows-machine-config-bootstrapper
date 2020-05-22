@@ -682,6 +682,8 @@ func getTimeZoneMap() map[string]string {
 	timeZoneMap["westus2"] = "Pacific Daylight Time"
 	timeZoneMap["northcentralus"] = "Central Daylight Time"
 	timeZoneMap["southcentralus"] = "Central Daylight Time"
+	// https://jackstromberg.com/2017/01/list-of-time-zones-consumed-by-azure/
+	timeZoneMap["westeurope"] = "W. Central Africa Standard Time"
 	return timeZoneMap
 }
 
